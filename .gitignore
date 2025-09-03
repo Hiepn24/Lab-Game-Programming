@@ -1,0 +1,52 @@
+# This .gitignore file is for a monorepo containing multiple Unity projects.
+
+# Ignore Unity's main generated folders in all subdirectories
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+**/[Uu]serSettings/
+
+# Visual Studio / Rider / MonoDevelop generated files
+**/[Ee]xported[Oo]bj/
+**/.vs/
+**/.vscode/
+**/.idea/
+**/*.sln
+**/*.suo
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.svd
+**/*.pdb
+**/*.mdb
+**/*.opendb
+**/*.VC.db
+
+# Unity3D generated meta files
+**/*.pidb.meta
+**/*.pdb.meta
+**/*.mdb.meta
+
+# Unity3D Generated File On Crash Reports
+**/sysinfo.txt
+
+# Builds
+**/*.apk
+**/*.aab
+**/*.unitypackage
+**/*.app
+**/*.exe
+**/*.dll
+
+# Mac specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
